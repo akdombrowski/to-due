@@ -1,5 +1,7 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import Box from "@mui/material/Box"
+import Grid from "@mui/material/Unstable_Grid2"
+import Container from "@mui/material/Container"
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
 # BASE TEMPLATE
-# yarn, nextjs, react, node, linux, windows
+# yarn, nextjs, react, node, linux, windows, vs code
 
 ### Linux ###
 *~
@@ -233,7 +233,7 @@ $RECYCLE.BIN/
 !.yarn/releases
 !.yarn/patches
 !.yarn/plugins
-!.yarn/sdks
+# !.yarn/sdks
 !.yarn/versions
 
 # if you are NOT using Zero-installs, then:
@@ -242,6 +242,17 @@ $RECYCLE.BIN/
 
 # and uncomment the following lines
 # .pnp.*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,nextjs,node,react,windows,yarn
 
