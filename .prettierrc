@@ -1,0 +1,18 @@
+{
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": false,
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "htmlWhitespaceSensitivity": "strict",
+  "proseWrap": "always",
+  "quoteProps": "consistent",
+  "singleAttributePerLine": true,
+  "arrowParens": "always",
+  "jsxSingleQuote": false,
+   "plugins": ["prettier-plugin-sh", "prettier-plugin-toml", prettier-plugin-svelte],
+   
+    "overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
+}
