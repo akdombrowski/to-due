@@ -13,19 +13,18 @@ import "@fontsource/roboto/package.json";
 /**
  *  Styling for MUI components using theme
  */
-import theme from "@/styles";
+import theme from "@/theme";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 // nextjs optimization
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 
-import AppAppBar from "@/components/appbar/AppAppBar";
 import Toolbar from "@mui/material/Toolbar";
 
 // vercel site performance and analytics
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
-import { GoogleTagManager } from "@next/third-parties/google";
+// import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Anthony Dombrowski's Portfolio",
@@ -37,18 +36,18 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <link
+        {/* <link
           rel="icon"
           href="/anthonyProfilesq/favicon.ico"
           sizes="any"
-        />
+        /> */}
       </head>
-      <GoogleTagManager gtmId="GTM-1234567" />
+      {/* <GoogleTagManager gtmId="GTM-1234567" /> */}
       <body>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <AppAppBar />
+            {/* <AppAppBar /> */}
             <Toolbar
               variant="dense"
               sx={{ minHeight: 55 }}
