@@ -1,0 +1,25 @@
+{
+  "name": "to-due",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@3.5.0+sha512.2dc70be5fce9f66756d25b00a888f3ca66f86b502b76750e72ba54cec89da767b938c54124595e26f868825688e0fe3552c26c76a330673343057acadd5cfcf2"
+}
