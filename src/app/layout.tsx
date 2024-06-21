@@ -27,9 +27,9 @@ import { Analytics } from "@vercel/analytics/react";
 // import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
-  title: "Anthony Dombrowski's Portfolio",
+  title: "Anthony Dombrowski's To-Do Task Timer App",
   description:
-    "Professional Resume Portfolio and Content Library for Anthony Dombrowski. Product Manager and Developer Advocate. ",
+    "to-due is an app meant to help you be more efficient with your time, focus, and be more productive. Inspired by the pomodoro technique of intervals of work split between short and long breaks to keep your mind sharp and at peak effectiveness instead of trying to maintain a consistent level in a basic marathon sprint.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
